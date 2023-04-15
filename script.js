@@ -24,7 +24,7 @@ function calculate() {
     result += combination * fifth_multiplier;
     result += combination * sixth_multiplier;
     result *= 1.2;
-
+    result /= 1000
 
     console.log(combination);
     document.getElementById("result").innerHTML = result.toFixed(2) + "лева."
