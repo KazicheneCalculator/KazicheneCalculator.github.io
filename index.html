@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electricity Calculator</title>
+	<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+	<div class="calculator">
+		<h1>Electricity Calculator</h1>
+       
+		<label for="t1_new">T1 ново:</label>
+		<input type="number" id="t1_new" name="t1_new"><br>
+        
+		<label for="t1_old">T1 старо:</label>
+		<input type="number" id="t1_old" name="t1_old"><br>
+        
+        <label for="t2_new">T2 ново:</label>
+        <input type="number" id="t2_new" name="t2_new"><br>
+        
+        <label for="t2_old">T2 старо:</label>
+        <input type="number" id="t2_old" name="t2_old"><br>
+                
+        <label for="1st_multiplier">Първи множител:</label>
+        <input type="number" id="1st_multiplier" name="1st_multiplier" step="0.00001"><br>
+        
+        <label for="2nd_multiplier">Втори множител:</label>
+        <input type="number" id="2nd_multiplier" name="2nd_multiplier" step="0.00001"><br>
+        
+        <label for="3rd_multiplier">Трети множител:</label>
+        <input type="number" id="3rd_multiplier" name="3rd_multiplier" step="0.00001"><br>
+        
+        <label for="4th_multiplier">Четвърти множител:</label>
+        <input type="number" id="4th_multiplier" name="4th_multiplier" step="0.00001"><br>
+        
+        <label for="5th_multiplier">Пети множител:</label>
+        <input type="number" id="5th_multiplier" name="5th_multiplier" step="0.00001"><br>
+        
+        <label for="6th_multiplier">Шести множител:</label>
+        <input type="number" id="6th_multiplier" name="6th_multiplier" step="0.00001"><br>
+        
+       
+		<button onclick="calculate()">Calculate</button><br>
+
+		<label for="result">Total cost:</label>
+		<span id="result"></span>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
