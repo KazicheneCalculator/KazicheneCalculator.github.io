@@ -7,6 +7,16 @@
 	text-align: center;
 }
 
+@media only screen and (max-width:600x) {
+	.calculator{
+	margin: 50px auto;
+	padding: 50px;
+	width: 95%;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	text-align: center;
+	}
+}
 
 body {
     background-color: antiquewhite;
