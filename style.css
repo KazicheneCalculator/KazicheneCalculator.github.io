@@ -9,8 +9,8 @@
 
 @media only screen and (max-width:600x) {
 	.calculator{
-	margin: 50px auto;
-	padding: 50px;
+	margin: 15px auto;
+	padding: 25px;
 	width: 95%;
 	border: 2px solid #ccc;
 	border-radius: 20px;
