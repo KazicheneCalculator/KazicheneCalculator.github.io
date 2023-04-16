@@ -25,9 +25,9 @@ function calculate() {
     result += combination * sixth_multiplier;
     result *= 1.2;
     
-
     console.log(combination);
-    document.getElementById("result").innerHTML = result.toFixed(2) + "лева."
+    var elements = document.getElementsByClassName("result-span");
+    elements[0].innerHTML = result.toFixed(2) + " лева.";
 }
 
 function calculate_no_multipliers(){
@@ -56,7 +56,9 @@ function calculate_no_multipliers(){
     result *= 1.2;
     
     console.log(combination);
-    document.getElementById("result").innerHTML = result.toFixed(2) + "лева."
+    var elements = document.getElementsByClassName("result-span");
+    elements[0].innerHTML = result.toFixed(2) + " лева.";
+    
 }
 
 function calculate_baraka() {
@@ -89,5 +91,6 @@ function calculate_baraka() {
     result -= combination * compensation;
 
     console.log(combination);
-    document.getElementById("result").innerHTML = result.toFixed(2) + "лева."
+    var elements = document.getElementsByClassName("result-span");
+    elements[0].innerHTML = result.toFixed(2) + " лева.";
 }

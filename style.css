@@ -7,8 +7,6 @@
 	text-align: center;
 }
 
-
-
 .redirect-button-div{
 	margin: 30px auto;
 	padding: 20px;
@@ -51,20 +49,36 @@
 	background-color: #0069d9;
 }
 
-@media only screen and (max-width:800px) {
+.main-text{
+	text-align: center;
+}
+
+.price-label{
+	text-align: center;
+	font-size: 3vh;
+}
+
+.result-span{
+	font-size: 4vh;
+}
+
+@media only screen and (max-width:1020px) {
 	.calculator{
 	margin: 15px auto;
 	padding: 25px;
-	width: 95%;
-	border: 2px solid #ccc;
+	max-width: 95%;
+	border: 4px solid #ccc;
 	border-radius: 20px;
 	text-align: left;
+	height:70vh;
+	font-size: 24px;
 	}
 	
 	.redirect-button-div{
 		margin: 30px auto;
 		padding: 20px;
 		text-align: center;
+
 	}
 	
 	.redirect-button {
@@ -74,7 +88,8 @@
 		color:black;
 		cursor: pointer;
 		border-radius: 10px;
-		border: 2px solid;
+		border: 4px solid;
+		font-size: 40px;
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
 	}
 	
@@ -97,10 +112,28 @@
 		font-family:Arial, Helvetica, sans-serif;
 		font-size:medium;
 		font-weight:bold;
+		font-size: 34px;
 	}
 	
 	.calculate-button:hover{
 		background-color: #0069d9;
+	}
+	.labels_inputs-div{
+		font-size: 50px;
+	}
+
+	.inputs{
+		height: 38px;
+		width: 420px;
+	}
+
+	input[type="number"]{
+		font-size: 24px;
+	}
+
+	.price-label{
+		text-align: center;
+		font-size: 80px;
 	}
 }
 

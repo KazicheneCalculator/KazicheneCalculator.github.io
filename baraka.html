@@ -12,62 +12,62 @@
     </div>
 
 	<div class="calculator">
-		<h1>Промишлен Калкулатор</h1>
+		<h1 class="main-text">Промишлен Калкулатор</h1>
         <div class="labels_inputs-div">
 		    <label class="labels" for="t1_new">T1 ново:</label>
 
-		    <input type="number" id="t1_new" name="t1_new"><br>
+		    <input class="inputs" type="number" id="t1_new" name="t1_new"><br>
             
 		    <label class="labels" for="t1_old">T1 старо:</label>
             
-		    <input type="number" id="t1_old" name="t1_old"><br>
+		    <input class="inputs" type="number" id="t1_old" name="t1_old"><br>
             
             <label class="labels" for="t2_new">T2 ново:</label>
 
-            <input type="number" id="t2_new" name="t2_new"><br>
+            <input class="inputs" type="number" id="t2_new" name="t2_new"><br>
             
             <label class="labels" for="t2_old">T2 старо:</label>
 
-            <input type="number" id="t2_old" name="t2_old"><br>
+            <input class="inputs" type="number" id="t2_old" name="t2_old"><br>
 
-            <label class="labels" for="1st_multiplier">Първи множител:</label>
+            <label class="labels" for="1st_multiplier">1ви множител:</label>
 
-            <input type="number" id="1st_multiplier" name="1st_multiplier" step="0.00001"><br>
+            <input class="inputs" type="number" id="1st_multiplier" name="1st_multiplier" step="0.00001"><br>
             
-            <label class="labels" for="2nd_multiplier">Втори множител:</label>
+            <label class="labels" for="2nd_multiplier">2ри множител:</label>
 
-            <input type="number" id="2nd_multiplier" name="2nd_multiplier" step="0.00001"><br>
+            <input class="inputs" type="number" id="2nd_multiplier" name="2nd_multiplier" step="0.00001"><br>
             
-            <label class="labels" for="3rd_multiplier">Трети множител:</label>
+            <label class="labels" for="3rd_multiplier">3ти множител:</label>
 
-            <input type="number" id="3rd_multiplier" name="3rd_multiplier" step="0.00001"><br>
+            <input class="inputs" type="number" id="3rd_multiplier" name="3rd_multiplier" step="0.00001"><br>
             
-            <label class="labels" for="4th_multiplier">Четвърти множител:</label>
+            <label class="labels" for="4th_multiplier">4ти множител:</label>
 
-            <input type="number" id="4th_multiplier" name="4th_multiplier" step="0.00001"><br>
+            <input class="inputs" type="number" id="4th_multiplier" name="4th_multiplier" step="0.00001"><br>
             
-            <label class="labels" for="5th_multiplier">Пети множител:</label>
+            <label class="labels" for="5th_multiplier">5ти множител:</label>
 
-            <input type="number" id="5th_multiplier" name="5th_multiplier" step="0.00001"><br>
+            <input class="inputs" type="number" id="5th_multiplier" name="5th_multiplier" step="0.00001"><br>
             
-            <label class="labels" for="6th_multiplier">Шести множител:</label>
+            <label class="labels" for="6th_multiplier">6ти множител:</label>
 
-            <input type="number" id="6th_multiplier" name="6th_multiplier" step="0.00001"><br>
+            <input class="inputs" type="number" id="6th_multiplier" name="6th_multiplier" step="0.00001"><br>
             
-            <label class="labels" for="7th_multiplier">Седми множител:</label>
+            <label class="labels" for="7th_multiplier">7ми множител:</label>
 
-            <input type="number" id="7th_multiplier" name="7th_multiplier" step="0.00001"><br>
+            <input class="inputs" type="number" id="7th_multiplier" name="7th_multiplier" step="0.00001"><br>
 
             <label class="labels" for="compensation">Компенсация:</label>
 
-            <input type="number" id="compensation" name="compensation" step="0.00001"><br>
+            <input class="inputs" type="number" id="compensation" name="compensation" step="0.00001"><br>
         </div>
         <div class="calculate-buttons-div">
 		    <button onclick="calculate_baraka()" class="calculate-button">Калкулирай</button>
             
         </div>
-        <label for="result"><strong>Цена:</strong></label>
-		<span id="result"></span>
+        <label class="price-label"><strong>Цена:</strong></label>
+		<span class="result-span"></span>
 	</div>
 	<script src="script.js"></script>
 </body>
