@@ -7,14 +7,100 @@
 	text-align: center;
 }
 
-@media only screen and (max-width:600x) {
+
+
+.redirect-button-div{
+	margin: 30px auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.redirect-button {
+	text-align: center;
+	padding: 10px;
+	background-color:beige ;
+	color:black;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redirect-button:hover{
+	background-color:rgb(197, 197, 161) ;
+}
+
+.calculate-buttons-div{
+	padding: 10px;
+	display:grid;
+}
+
+.calculate-button {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	font-weight:bold;
+}
+
+.calculate-button:hover{
+	background-color: #0069d9;
+}
+
+@media only screen and (max-width:800px) {
 	.calculator{
 	margin: 15px auto;
 	padding: 25px;
 	width: 95%;
 	border: 2px solid #ccc;
 	border-radius: 20px;
-	text-align: center;
+	text-align: left;
+	}
+	
+	.redirect-button-div{
+		margin: 30px auto;
+		padding: 20px;
+		text-align: center;
+	}
+	
+	.redirect-button {
+		text-align: center;
+		padding: 10px;
+		background-color:beige ;
+		color:black;
+		cursor: pointer;
+		border-radius: 10px;
+		border: 2px solid;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.redirect-button:hover{
+		background-color:rgb(197, 197, 161) ;
+	}
+	
+	.calculate-buttons-div{
+		padding: 10px;
+		display:grid;
+	}
+	
+	.calculate-button {
+		padding: 10px;
+		border-radius: 5px;
+		background-color: #007bff;
+		color: #fff;
+		cursor: pointer;
+		margin-bottom: 10px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:medium;
+		font-weight:bold;
+	}
+	
+	.calculate-button:hover{
+		background-color: #0069d9;
 	}
 }
 
@@ -38,18 +124,7 @@ input {
 	border: 1px solid #ccc;
 }
 
-button {
-	padding: 10px;
-	border-radius: 5px;
-	background-color: #007bff;
-	color: #fff;
-	cursor: pointer;
-	margin-bottom: 10px;
-}
 
-button:hover {
-	background-color: #0069d9;
-}
 
 span {
 	font-weight: bold;
